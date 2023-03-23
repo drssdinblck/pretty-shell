@@ -60,7 +60,7 @@ print_banner () {
 
 print_indented () {
   local text=$1
-  echo "|---> ${text}"
+  echo "|--- ${text}"
 }
 
 print_success () {
